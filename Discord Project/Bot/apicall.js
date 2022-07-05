@@ -15,8 +15,8 @@ exports.run = (lang, code, input, fn)=>
         language: data[lang],
         versionIndex: "0",
         stdin: input,
-        clientId: "eeac8d0afed4e96cfac5429d26575139",
-        clientSecret:"cd9e96caaabe7439e5002d96b407599d9b2d6cd6a98f34eaa715f02f2e022f2f"
+        clientId: "YOUR_CLIENT_ID",
+        clientSecret:"YOUR_CLIENT_SECRET"
     };
     request({
         url: 'https://api.jdoodle.com/v1/execute',
